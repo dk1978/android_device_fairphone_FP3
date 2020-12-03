@@ -197,10 +197,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.hw.binder.size_kbyte=1024
 
-#minimum duration for offload playback in secs
-PRODUCT_PROPERTY_OVERRIDES += \
-    audio.offload.min.duration.secs=30
-
 #enable offload audio video playback by default
 PRODUCT_PROPERTY_OVERRIDES += \
     audio.offload.video=true
